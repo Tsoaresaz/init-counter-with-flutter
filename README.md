@@ -10,9 +10,11 @@ Projeto de estudos com Flutter. Neste projeto peguei o start que o Flutter dá e
 
 ## Imagens do Projeto
 
-<img src="doc/01-img.PNG" alt="Tela principal do projeto" height="350">
-<img src="doc/02-img.PNG" alt="Valor menor que zero" height="350">
-<img src="doc/03-img.PNG" alt="Valor maior que dez" height="350">
+<div style="display: flex; gap:10px;">
+  <img src="doc/01-img.PNG" alt="Tela principal do projeto" height="350">
+  <img src="doc/02-img.PNG" alt="Valor menor que zero" height="350">
+  <img src="doc/03-img.PNG" alt="Valor maior que dez" height="350">
+</div>
 
 ## Getting Started
 

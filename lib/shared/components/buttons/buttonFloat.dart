@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-Widget buttonFloat(BuildContext context, String tooltip, IconData icon,
+Widget ButtonFloat(BuildContext context, String tooltip, IconData icon,
     void Function() callback) {
   return FloatingActionButton(
     onPressed: callback,

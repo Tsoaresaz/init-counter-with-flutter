@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:projeto_perguntas/shared/components/showDialogGeneric/showDialogGeneric.dart';
-import 'package:projeto_perguntas/shared/components/buttons/buttonFloat.dart';
+import 'package:projeto_perguntas/shared/components/buttons/ButtonFloat.dart';
 
 void main() {
   runApp(MyApp());
@@ -74,7 +74,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: [
                   Padding(
                     padding: EdgeInsets.symmetric(horizontal: 16.0),
-                    child: buttonFloat(
+                    child: ButtonFloat(
                       context,
                       'Remover',
                       Icons.remove,
@@ -92,7 +92,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       },
                     ),
                   ),
-                  buttonFloat(
+                  ButtonFloat(
                     context,
                     'Adicionar',
                     Icons.add,
@@ -106,38 +106,6 @@ class _MyHomePageState extends State<MyHomePage> {
                       _incrementCounter();
                     },
                   ),
-                  // FloatingActionButton(
-                  //   onPressed: () {
-                  //     if (_counter == 10) {
-                  //       showDialogGeneric(context, 'Aviso',
-                  //           'Não pode ter número maior que 10');
-                  //       return;
-                  //     }
-
-                  //     _incrementCounter();
-                  //   },
-                  //   tooltip: 'Adicionar',
-                  //   child: Icon(Icons.add),
-                  // ),
-                  // Padding(
-                  //   padding: EdgeInsets.symmetric(horizontal: 16.0),
-                  //   child: FloatingActionButton(
-                  //     onPressed: () {
-                  //       if (_counter <= 0) {
-                  //         _counter = 0;
-                  //         showDialogGeneric(
-                  //           context,
-                  //           'Aviso',
-                  //           'Não pode ter número menor que 0',
-                  //         );
-                  //         return;
-                  //       }
-                  //       _decrementCounter();
-                  //     },
-                  //     tooltip: 'Remover',
-                  //     child: Icon(Icons.remove),
-                  //   ),
-                  // ),
                 ],
               ),
             ),

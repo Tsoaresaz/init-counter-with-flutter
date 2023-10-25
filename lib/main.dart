@@ -13,9 +13,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Hello World Flutter',
       theme: ThemeData(
-          primaryColor: Colors.amber.shade100,
+          primaryColor: Colors.blue,
           visualDensity: VisualDensity.adaptivePlatformDensity),
-      home: MyHomePage(title: 'Hello World AppBar'),
+      home: MyHomePage(title: 'Contador Flutter'),
     );
   }
 }

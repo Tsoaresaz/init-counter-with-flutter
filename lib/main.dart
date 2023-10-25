@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:projeto_perguntas/shared/components/showDialogGeneric/showDialogGeneric.dart';
-import 'package:projeto_perguntas/shared/components/buttons/ButtonFloat.dart';
+import 'package:projeto_perguntas/shared/components/buttons/buttonFloat.dart';
+import 'package:projeto_perguntas/shared/widget/CurrentTimeWidget.dart';
 
 void main() {
   runApp(MyApp());
@@ -49,6 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
+        actions: <Widget>[CurrentTimeWidget()],
       ),
       body: Stack(
         children: <Widget>[
@@ -74,7 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: [
                   Padding(
                     padding: EdgeInsets.symmetric(horizontal: 16.0),
-                    child: ButtonFloat(
+                    child: buttonFloat(
                       context,
                       'Remover',
                       Icons.remove,
@@ -92,7 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       },
                     ),
                   ),
-                  ButtonFloat(
+                  buttonFloat(
                     context,
                     'Adicionar',
                     Icons.add,

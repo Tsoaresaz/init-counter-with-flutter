@@ -8,6 +8,11 @@ Projeto de estudos com Flutter. Neste projeto peguei o start que o Flutter dá e
  - Uso de outros Widgets para ajustar o botão
   - Positioned, Container, Row, etc.
 
+## Imagens do Projeto
+
+![Tela principal do projeto](doc/01-img.PNG)
+![Valor menor que zero](doc/02-img.PNG)
+![Valor maior que dez](doc/03-img.PNG)
 
 ## Getting Started
 
